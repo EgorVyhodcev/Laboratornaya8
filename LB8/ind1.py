@@ -7,7 +7,7 @@ if __name__ == '__main__':
     i = 0
     for index, el in enumerate(a):
         k = a.count(el)
-        if k > 2:
+        if k >= 2:
             if len(a) > index + 1:
                 if a[index + 1] == el:
                     i = index + 1
