@@ -12,8 +12,6 @@ if __name__ == '__main__':
                 if a[index + 1] == el:
                     i = index + 1
                     break
-                else:
-                    continue
     if i:
         i += 1
         print(a[i:])
