@@ -15,8 +15,7 @@ if __name__ == '__main__':
                 else:
                     continue
     if i:
-        for index, el in enumerate(a):
-            if i < index < len(a):
-                print(el, end=' ')
+        i += 1
+        print(a[i:])
     else:
         print("There are no pairs of similar adjacent elements!")
